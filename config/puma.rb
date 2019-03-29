@@ -19,7 +19,7 @@ preload_app!
 
 # Specifies the `port` that Puma will listen on to receive requests; default is 3000.
 #
-rachup DefaultRackup
+rackup DefaultRackup
 port ENV['PORT'] || 3000
 environment ENV['RACK_ENV'] || 'development'
 
